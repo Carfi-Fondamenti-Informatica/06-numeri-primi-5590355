@@ -1,1 +1,1 @@
-
+bool numeriprimi (int,int);
