@@ -1,8 +1,11 @@
 #include "lib.h"
 
 bool numeriprimi (int n, int k) {
-    if (k==1) {
+    if (k==2) {
         return true;
+    }
+    else if (n==0||n==1){
+        return false;
     }
     else if ((n%k)==0) {
         return false;
